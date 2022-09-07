@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "localhost.desenv.bb.com.br": {
+    "rules": {
+      "/estatico/gaw-commons/": "https://plataforma.desenv.bb.com.br/estatico/gaw-commons/",
+      "/estatico/_seu-contexto-angular8+_/": "http://localhost:4200/estatico/_seu-contexto-angular8+_/",
+      "/estatico/foo/": "http://localhost:4200/estatico/foo/",
+      "/estatico/_seu-contexto-angularjs_/": "http://localhost:8100/",
+      "/estatico/bar/": "http://localhost:8100/",
+      "/_seu-contexto-api_/v3/": "http://localhost:7001/_seu-contexto-api_/v3/",
+      "/sockjs-node/": "http://localhost:4200/sockjs-node/",
+      "/foo/v3/": "http://localhost:7001/foo/v3/"
+    },
+    "default": "https://plataforma.desenv.bb.com.br"
+  },
+  "localhost.estatico.bb.com.br": {
+    "rules": {
+      "/gaw-commons/": "https://desenv.estatico.bb.com.br/gaw-commons/",
+      "/_seu-contexto-angular8+_/": "http://localhost:4200/estatico/_seu-contexto-angular8+_/",
+      "/foo/": "http://localhost:4200/estatico/foo/",
+      "/_seu-contexto-angularjs_/": "http://localhost:8100/",
+      "/bar/": "http://localhost:8100/"
+    },
+    "default": "https://desenv.estatico.bb.com.br"
+  },
+  "noProxy": "127.0.0.1,localhost",
+  "uuid": "c2027a37-5d4f-482b-881a-0b3350454851"
+}
